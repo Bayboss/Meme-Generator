@@ -1,0 +1,150 @@
+
+header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background: #6441A5;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+header > img {
+    height: 80%;
+    margin-left: 10%;
+}
+
+header > p {
+    font-family: VT323, monospace;
+    color: whitesmoke;
+    font-size: 50px;
+    margin-left: 60px;
+}
+
+
+.meme-form > input, .inpt {
+	margin:10px;
+    width: 35%;
+    height: 40px;
+}
+
+.meme-form > .inputButton, .btn {
+	border-radius:10px;
+	width:200px;
+    border: solid 3px Black;
+    font-family: VT323, monospace;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #6441A5;
+}
+
+.btndownload{
+	border-radius:10px;
+	width:auto;
+    border: solid 3px Black;
+    font-family: VT323, monospace;
+    font-size: 30px;
+    letter-spacing: 1.5px;
+    color: white;
+    background: #6441A5;
+	margin:25px;
+}
+
+.dividememeandweb{
+	display:grid;
+	grid-template-columns: 51% 49%;
+}
+
+
+.memepart {
+    position: relative;
+    margin: auto;
+	border:2px red;
+}
+
+.memepart > img {
+    height:500px;
+	width:840px;
+	border:solid 2px black;
+	padding:5px;
+}
+
+.top{
+	top:0px;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+   bottom:10px;
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.imageoutergrid{
+	background-color:grey;;
+	border:3px solid red;
+	text-align:center;
+	height:auto;
+	display:grid;
+	grid-template-columns:24% 25% 24% 25%;
+	width:100%;
+	border:3px solid blue;
+	height:90%;
+}
+
+.gridimage{
+	border:13px solid white;
+	height:160px;
+	width:100%;
+	margin:2px;
+}
+
+button:hover, .inputButton {
+	border:3px solid orange;
+	cursor:pointer;
+}
+
+.gridimage{
+	cursor:pointer;
+}

@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "memegenerator-30b98",
+    "MemeGenerator": "memegenerator-30b98"
+  }
+}
